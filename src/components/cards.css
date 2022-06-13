@@ -1,0 +1,28 @@
+/* background  the body */
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 32, 1) 35%,
+    rgba(91, 59, 87, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+/*Card style*/
+.cardStyle {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+/*Component Link*/
+.bLink {
+  padding-bottom: 2vh;
+}
+
+/* remove button focus */
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
