@@ -43,7 +43,7 @@ const Questions = () => {
       setQuesti(resultQuestion);
     };
 
-    //Execute function fecthQuestion
+    //Execute function fecthQuestion//
     fecthQuestion();
   }, [count]);
 
